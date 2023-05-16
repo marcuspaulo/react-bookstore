@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.box {
+    width: 200px;
+    border: 1px solid rgb(92, 92, 92);
+    padding-bottom: 5%;
+}
+
+.box:hover {
+    filter: drop-shadow(0 0 4em #646cffaa);
+}
